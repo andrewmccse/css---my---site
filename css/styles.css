@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+div {
+  height: 100%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  /*100% = 16px = 1em*/
+  font-family: 'Sacramento', cursive;
+  color: #dbedf3;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #404b69;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f73859;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #404b69;
+  border-width: 10px;
+  margin: 75px auto 75px;
+  opacity: 0.33;
+  width: 5%;
+}
+
+p {
+  color: #283149;
+  line-height: 2;
+}
+
+a {
+
+}
+
+a:hover {
+  color: #f73859;
+  text-decoration: none;
+}
+
+.sub-title {
+  color: #dbedf3;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.outro {
+  width: 30%;
+  margin: auto auto 30px auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background: #404b69;
+}
+
+.middle-container {
+  background: #dbedf3;
+  padding: 100px 0 100px;
+}
+
+.bottom-container {
+  background: #404b69;
+  padding-top: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.footer-link {
+  color: #dbedf3;
+  margin: 0 15px 0;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #dbedf3;
+  opacity: 0.33;
+  font-size: 0.75rem;
+  margin: 20px;
+}
+
+.flaticons {
+  color: #dbedf3;
+  opacity: 0.33;
+  font-size: 0.75rem;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #dbedf3;
+  font-size: 20px;
+  background: #404b69;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f73859;
+  color: #dbedf3;
+  text-decoration: none;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 15%;
+  top: 50px;
+}
+
+.me-img {
+  border-radius: 30px;
+  width: 200px;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.devices-img {
+  width: 25%;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.piano-img {
+  width: 25%;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
